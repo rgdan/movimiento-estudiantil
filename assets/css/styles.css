@@ -139,9 +139,8 @@ summary { color: var(--ink); font-weight: 600; font-size: .82rem; min-height: 46
 .association-group > h3 { font-size: 1.3rem; }
 #directory-status:not(:empty) { padding-block: 1rem; }
 #reset-filters { margin-top: 1rem; }
-.campus-profiles { margin-top: 1.5rem; }
-.campus-profiles ul { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; list-style: none; padding: 0; }
-.campus-profiles a { display: inline-flex; align-items: center; min-height: 44px; font-size: .85rem; }
+.organ-profiles { display: flex; flex-wrap: wrap; gap: 0 1.5rem; list-style: none; padding: 0; margin-block: .5rem; }
+.organ-profiles a { display: inline-flex; align-items: center; min-height: 44px; font-size: .85rem; }
 .sources { padding-block: 2.5rem; scroll-margin-top: .5rem; }
 .sources h2 { font-size: 1.6rem; }
 .sources > .wrap > p { font-size: .85rem; color: var(--muted); max-width: 38rem; }

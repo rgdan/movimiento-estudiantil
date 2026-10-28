@@ -48,6 +48,7 @@
     },
     {
       "id": "ce",
+      "instagram": [{ "nombre": "@feitec", "usuario": "feitec" }],
       "sigla": "CE",
       "nombre": "Consejo Ejecutivo",
       "rol": "Se encarga de la gestión ejecutiva y administrativa.",
@@ -63,6 +64,12 @@
     },
     {
       "id": "cer",
+      "instagram": [
+        { "nombre": "San José", "usuario": "feitecsjo" },
+        { "nombre": "San Carlos", "usuario": "feitecsc" },
+        { "nombre": "Limón", "usuario": "feitecli" },
+        { "nombre": "Alajuela", "usuario": "feitecal" }
+      ],
       "sigla": "CER",
       "nombre": "Consejos Ejecutivos Regionales",
       "rol": "Ejecutan el trabajo estudiantil en cada campus o centro, excepto el Central.",
@@ -91,6 +98,7 @@
     },
     {
       "id": "tee",
+      "instagram": [{ "nombre": "@tee.itcr", "usuario": "tee.itcr" }],
       "sigla": "TEE",
       "nombre": "Tribunal Electoral Estudiantil",
       "rol": "Organiza las elecciones y declara sus resultados.",
@@ -106,8 +114,9 @@
     },
     {
       "id": "tj",
-      "sigla": "TJ",
-      "nombre": "Tribunal Jurisdiccional",
+      "instagram": [{ "nombre": "@tje.itcr", "usuario": "tje.itcr" }],
+      "sigla": "TJE",
+      "nombre": "Tribunal Jurisdiccional Estudiantil",
       "rol": "Interpreta el Reglamento y resuelve sobre actos que lo contradicen.",
       "integrantes": "Directorio de 5 integrantes y 2 suplentes, elegido por el Plenario. Incluye al Fiscal ante el Registro Nacional.",
       "periodo": "1 año. Máximo 2 periodos consecutivos.",
@@ -150,6 +159,7 @@
     },
     {
       "id": "dae",
+      "instagram": [{ "nombre": "@dae.itcr", "usuario": "dae.itcr" }],
       "sigla": "DAE",
       "nombre": "Directorio de Asambleas Estudiantiles",
       "rol": "Organiza y dirige la Asamblea General y el Plenario.",
@@ -260,28 +270,6 @@
           ]
         }
       ]
-    }
-  ],
-  "federacion_por_sede": [
-    {
-      "sede": "Cartago",
-      "instagram": "feitec"
-    },
-    {
-      "sede": "San José",
-      "instagram": "feitecsjo"
-    },
-    {
-      "sede": "San Carlos",
-      "instagram": "feitecsc"
-    },
-    {
-      "sede": "Limón",
-      "instagram": "feitecli"
-    },
-    {
-      "sede": "Alajuela",
-      "instagram": "feitecal"
     }
   ]
 }

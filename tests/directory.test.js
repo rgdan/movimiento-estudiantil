@@ -70,3 +70,11 @@ test('el diagrama cubre todos los órganos con relaciones válidas', () => {
   assert.ok(!Object.hasOwn(content, 'presupuesto'));
   assert.ok(!Object.hasOwn(content, 'glosario'));
 });
+
+test('los perfiles de Instagram corresponden a cada órgano', () => {
+  const expected = { ce: ['feitec'], cer: ['feitecsjo', 'feitecsc', 'feitecli', 'feitecal'], tee: ['tee.itcr'], tj: ['tje.itcr'], dae: ['dae.itcr'] };
+  for (const [id, handles] of Object.entries(expected)) {
+    assert.deepEqual(content.organos.find(organ => organ.id === id).instagram.map(profile => profile.usuario), handles);
+  }
+  assert.ok(!Object.hasOwn(content, 'federacion_por_sede'));
+});
