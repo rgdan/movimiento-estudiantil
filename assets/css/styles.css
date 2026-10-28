@@ -124,23 +124,25 @@ summary { color: var(--ink); font-weight: 600; font-size: .82rem; min-height: 46
 .directory-filters input, .directory-filters select { width: 100%; min-width: 0; border: 1px solid var(--grey); border-radius: 7px; background: var(--raised); color: var(--body); padding: .65rem .8rem; font-size: 1rem; }
 .directory-filters input::placeholder { color: var(--muted); opacity: 1; }
 .association-grid { display: grid; gap: 1rem; }
-.association-card { min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--raised); border-radius: 13px; scroll-margin-top: var(--nav-height); }
+.association-card { display: flex; flex-direction: column; min-width: 0; padding: 1.25rem; border: 1px solid var(--line); background: var(--raised); border-radius: 13px; scroll-margin-top: var(--nav-height); }
 .association-card:target { outline: 3px solid var(--link); outline-offset: 4px; }
 .association-topline { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem; margin-bottom: 1rem; font-size: .73rem; color: var(--muted); }
-.association-color { width: .6rem; height: .6rem; display: inline-block; border: 1px solid var(--grey); border-radius: 50%; margin-right: .4rem; }
 .example-label { color: var(--ink); background: var(--surface); border-radius: 4px; padding: .2rem .4rem; font-size: .65rem; font-weight: 600; }
 .association-card h3 { margin-bottom: .35rem; }
 .association-career { font-size: .85rem; color: var(--muted); margin-bottom: 1.25rem; }
-.instagram-action { width: 100%; font-size: .8rem; }
+.instagram-action { width: 100%; margin-top: auto; font-size: .8rem; }
 .instagram-action:disabled { background: var(--surface); color: var(--muted); border-color: var(--grey); }
 .association-card details { border-top: 1px solid var(--line); margin-top: .75rem; }
 .association-card details summary { font-size: .75rem; }
-.association-card details p, .association-card details ul { font-size: .8rem; }
+.association-card details p { font-size: .8rem; }
 .permalink { display: inline-flex; align-items: center; min-height: 44px; font-size: .75rem; }
 .association-group + .association-group { margin-top: 2rem; }
 .association-group > h3 { font-size: 1.3rem; }
 #directory-status:not(:empty) { padding-block: 1rem; }
 #reset-filters { margin-top: 1rem; }
+.campus-profiles { margin-top: 1.5rem; }
+.campus-profiles ul { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; list-style: none; padding: 0; }
+.campus-profiles a { display: inline-flex; align-items: center; min-height: 44px; font-size: .85rem; }
 .sources { padding-block: 2.5rem; scroll-margin-top: .5rem; }
 .sources h2 { font-size: 1.6rem; }
 .sources > .wrap > p { font-size: .85rem; color: var(--muted); max-width: 38rem; }

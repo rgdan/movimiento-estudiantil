@@ -10,14 +10,13 @@ const entries = ['Cartago', 'San Carlos', 'San José'].map((sede, index) => ({
   escuela_o_departamento: index === 1 ? 'Escuela Sur' : 'Escuela Norte',
   sede,
   instagram: '',
-  junta: [],
   activa: true
 }));
 const content = JSON.parse(await readFile(new URL('../data/contenido.json', import.meta.url)));
 
-test('el directorio publicado es válido y sus ejemplos no inventan cuentas', () => {
+test('el directorio publicado es válido y no contiene ejemplos', () => {
   assert.doesNotThrow(() => validateAssociations(liveEntries));
-  assert.ok(liveEntries.filter(entry => entry.nombre.startsWith('EJEMPLO')).every(entry => entry.instagram === '' && !entry.junta?.length));
+  assert.ok(liveEntries.every(entry => !entry.nombre.startsWith('EJEMPLO')));
 });
 
 test('la búsqueda ignora tildes y mayúsculas y se combina con la sede', () => {
@@ -45,8 +44,8 @@ test('la validación rechaza URLs, HTML, usuarios inválidos y campos incorrecto
   }
   assert.throws(() => validateAssociations([{ ...entries[0], activa: 'true' }]));
   assert.throws(() => validateAssociations([{ ...entries[0], carrera: ' ' }]));
-  assert.throws(() => validateAssociations([{ ...entries[0], color: 'red;background:url(x)' }]));
-  assert.throws(() => validateAssociations([{ ...entries[0], junta: [{}] }]));
+  assert.throws(() => validateAssociations([{ ...entries[0], escuela_o_departamento: 123 }]));
+  assert.doesNotThrow(() => validateAssociations([{ ...entries[0], escuela_o_departamento: '' }]));
   assert.throws(() => validateAssociations([entries[0], { ...entries[0] }]));
   assert.throws(() => validateAssociations({}));
   assert.doesNotThrow(() => validateAssociations([]));

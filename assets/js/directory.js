@@ -10,14 +10,13 @@ export function validateAssociations(data) {
   for (const [index, entry] of data.entries()) {
     const error = (message) => { throw new Error(`Entrada ${index + 1}: ${message}`); };
     if (!entry || typeof entry !== 'object') error('se esperaba un objeto.');
-    for (const field of ['nombre', 'carrera', 'escuela_o_departamento', 'sede']) {
+    for (const field of ['nombre', 'carrera', 'sede']) {
       if (typeof entry[field] !== 'string' || !entry[field].trim()) error(`falta ${field}.`);
     }
+    if (typeof entry.escuela_o_departamento !== 'string') error('escuela_o_departamento debe ser texto; puede quedar vacío si no se conoce.');
     if (typeof entry.activa !== 'boolean') error('activa debe ser true o false.');
     if (typeof entry.instagram !== 'string' || (entry.instagram && !/^[a-zA-Z0-9_](?:[a-zA-Z0-9_.]{0,28}[a-zA-Z0-9_])?$/.test(entry.instagram))) error('instagram debe ser un usuario sin @ ni URL, o una cadena vacía.');
     if (entry.descripcion !== undefined && typeof entry.descripcion !== 'string') error('descripcion debe ser texto.');
-    if (entry.junta !== undefined && (!Array.isArray(entry.junta) || entry.junta.some(member => typeof member !== 'string'))) error('junta debe ser una lista de textos.');
-    if (entry.color !== undefined && !/^#[a-fA-F0-9]{6}$/.test(entry.color)) error('color debe usar #RRGGBB.');
     const id = associationId(entry);
     if (ids.has(id)) error('hay dos asociaciones con el mismo nombre, carrera y sede.');
     ids.add(id);

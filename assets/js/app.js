@@ -113,6 +113,7 @@ function renderContent(data) {
   renderDiagram();
   selectOrgan(selectedOrgan);
   new ResizeObserver(drawConnections).observe($('#diagram'));
+  $('#campus-profiles').innerHTML = data.federacion_por_sede.map(profile => `<li><a href="https://instagram.com/${encodeURIComponent(profile.instagram)}" target="_blank" rel="noopener noreferrer" aria-label="Instagram de la Federación en ${escape(profile.sede)} (nueva pestaña)">${escape(profile.sede)}</a></li>`).join('');
   $('#load-status').hidden = true;
   handleHash();
 }
@@ -120,7 +121,7 @@ function renderContent(data) {
 function associationCard(entry) {
   const id = associationId(entry);
   const example = entry.nombre.startsWith('EJEMPLO');
-  return `<article id="${id}" class="association-card" tabindex="-1" aria-labelledby="${id}-title"><div class="association-topline"><span>${entry.color ? `<i class="association-color" style="background:${entry.color}" aria-hidden="true"></i>` : ''}${escape(entry.sede)}</span><span>${example ? '<span class="example-label">EJEMPLO</span>' : ''}${!entry.activa ? ' · Inactiva' : ''}</span></div><h3 id="${id}-title">${escape(entry.nombre.replace(/^EJEMPLO\s*[·:]\s*/, ''))}</h3><p class="association-career">${escape(entry.carrera)}</p>${entry.instagram ? `<a class="button instagram-action" href="https://instagram.com/${encodeURIComponent(entry.instagram)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de ${escape(entry.nombre)} (nueva pestaña)">Abrir Instagram</a>` : '<button type="button" class="button instagram-action" disabled>Instagram sin registrar</button>'}<details><summary>Más información</summary><p>${escape(entry.escuela_o_departamento)}</p>${entry.descripcion ? paragraph(entry.descripcion) : ''}${entry.junta?.length ? `<ul>${entry.junta.map(member => `<li>${escape(member)}</li>`).join('')}</ul>` : ''}<a class="permalink" href="#${id}">Enlace a esta asociación</a></details></article>`;
+  return `<article id="${id}" class="association-card" tabindex="-1" aria-labelledby="${id}-title"><div class="association-topline"><span>${escape(entry.sede)}</span><span>${example ? '<span class="example-label">EJEMPLO</span>' : ''}${!entry.activa ? ' · Inactiva' : ''}</span></div><h3 id="${id}-title">${escape(entry.nombre.replace(/^EJEMPLO\s*[·:]\s*/, ''))}</h3><p class="association-career">${escape(entry.carrera)}</p>${entry.instagram ? `<a class="button instagram-action" href="https://instagram.com/${encodeURIComponent(entry.instagram)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de ${escape(entry.nombre)} (nueva pestaña)">Abrir Instagram</a>` : '<button type="button" class="button instagram-action" disabled>Instagram sin registrar</button>'}<details><summary>Más información</summary>${entry.escuela_o_departamento ? paragraph(entry.escuela_o_departamento) : ''}${entry.descripcion ? paragraph(entry.descripcion) : ''}<a class="permalink" href="#${id}">Enlace a esta asociación</a></details></article>`;
 }
 
 function renderDirectory() {
