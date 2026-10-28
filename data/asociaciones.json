@@ -1,32 +1,274 @@
 [
   {
-    "nombre": "EJEMPLO · Asociación A",
-    "carrera": "Carrera por completar A",
-    "escuela_o_departamento": "Escuela por completar A",
+    "nombre": "ASOCAE",
+    "carrera": "Administración de Empresas",
+    "escuela_o_departamento": "",
     "sede": "Cartago",
-    "instagram": "",
-    "descripcion": "Entrada de ejemplo. Reemplazar con información verificada de la asociación.",
-    "junta": [],
+    "instagram": "asoaetec",
     "activa": true
   },
   {
-    "nombre": "EJEMPLO · Asociación B",
-    "carrera": "Carrera por completar B",
-    "escuela_o_departamento": "Escuela por completar B",
+    "nombre": "ASEATI",
+    "carrera": "Administración de Tecnología de Información",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aseati.tec",
+    "activa": true
+  },
+  {
+    "nombre": "AEMATEC",
+    "carrera": "Enseñanza de la Matemática con Entornos Tecnológicos",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aematec",
+    "activa": true
+  },
+  {
+    "nombre": "ASOAGRI",
+    "carrera": "Ingeniería Agrícola",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asoagritec",
+    "activa": true
+  },
+  {
+    "nombre": "AESIA",
+    "carrera": "Ingeniería en Agronegocios",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aesiatec",
+    "activa": true
+  },
+  {
+    "nombre": "AEIA",
+    "carrera": "Ingeniería Ambiental",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asocia.itcr",
+    "activa": true
+  },
+  {
+    "nombre": "ASOEBI",
+    "carrera": "Ingeniería en Biotecnología",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asoebiotec",
+    "activa": true
+  },
+  {
+    "nombre": "ASODEC",
+    "carrera": "Ingeniería en Computación",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asodec_itcr",
+    "activa": true
+  },
+  {
+    "nombre": "ASEIC",
+    "carrera": "Ingeniería en Computadores",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aseic.itcr",
+    "activa": true
+  },
+  {
+    "nombre": "AEICO",
+    "carrera": "Ingeniería en Construcción",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aeico_tec",
+    "activa": true
+  },
+  {
+    "nombre": "ASEISLHA",
+    "carrera": "Ingeniería en Seguridad Laboral e Higiene Ambiental",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aseislha",
+    "activa": true
+  },
+  {
+    "nombre": "AESETEC",
+    "carrera": "Ingeniería en Electrónica",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aesetec",
+    "activa": true
+  },
+  {
+    "nombre": "ASIEM",
+    "carrera": "Ingeniería Electromecánica",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asiem_tec",
+    "activa": true
+  },
+  {
+    "nombre": "ACIM",
+    "carrera": "Ingeniería en Materiales",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "acimtec",
+    "activa": true
+  },
+  {
+    "nombre": "ASEIF",
+    "carrera": "Ingeniería Física",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asoiftec",
+    "activa": true
+  },
+  {
+    "nombre": "AEIF",
+    "carrera": "Ingeniería Forestal",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asefor_tec",
+    "activa": true
+  },
+  {
+    "nombre": "ASOMEC",
+    "carrera": "Ingeniería en Mecatrónica",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "mecatronica_tec",
+    "activa": true
+  },
+  {
+    "nombre": "AEPI",
+    "carrera": "Ingeniería en Producción Industrial",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aepitec",
+    "activa": true
+  },
+  {
+    "nombre": "ASEIDI",
+    "carrera": "Ingeniería en Diseño Industrial",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "aseiditec",
+    "activa": true
+  },
+  {
+    "nombre": "ASEGTURS",
+    "carrera": "Gestión del Turismo Sostenible",
+    "escuela_o_departamento": "",
+    "sede": "Cartago",
+    "instagram": "asegturstec",
+    "activa": true
+  },
+  {
+    "nombre": "ASOCAE",
+    "carrera": "Administración de Empresas",
+    "escuela_o_departamento": "",
+    "sede": "San José",
+    "instagram": "asocae",
+    "activa": true
+  },
+  {
+    "nombre": "ASODEC SJ",
+    "carrera": "Ingeniería en Computación",
+    "escuela_o_departamento": "",
+    "sede": "San José",
+    "instagram": "asodec_sj",
+    "activa": true
+  },
+  {
+    "nombre": "AEAU",
+    "carrera": "Arquitectura y Urbanismo",
+    "escuela_o_departamento": "",
+    "sede": "San José",
+    "instagram": "aeau.tec",
+    "activa": true
+  },
+  {
+    "nombre": "ASOAE SC",
+    "carrera": "Administración de Empresas",
+    "escuela_o_departamento": "",
+    "sede": "San Carlos",
+    "instagram": "asoae_sc",
+    "activa": true
+  },
+  {
+    "nombre": "Nombre por confirmar",
+    "carrera": "Ingeniería en Agronomía",
+    "escuela_o_departamento": "",
     "sede": "San Carlos",
     "instagram": "",
-    "descripcion": "Entrada de ejemplo. La sede solo demuestra cómo funciona el filtro; no identifica una asociación real.",
-    "junta": [],
     "activa": true
   },
   {
-    "nombre": "EJEMPLO · Asociación C",
-    "carrera": "Carrera por completar C",
-    "escuela_o_departamento": "Escuela por completar A",
-    "sede": "San José",
-    "instagram": "",
-    "descripcion": "Entrada de ejemplo. Agregá el usuario real de Instagram para habilitar su enlace.",
-    "junta": [],
+    "nombre": "ASEISI",
+    "carrera": "Ingeniería en Computación",
+    "escuela_o_departamento": "",
+    "sede": "San Carlos",
+    "instagram": "aseisi.sc",
+    "activa": true
+  },
+  {
+    "nombre": "ADESC",
+    "carrera": "Ingeniería en Electrónica",
+    "escuela_o_departamento": "",
+    "sede": "San Carlos",
+    "instagram": "adesc_sancarlos",
+    "activa": true
+  },
+  {
+    "nombre": "ASEPI",
+    "carrera": "Ingeniería en Producción Industrial",
+    "escuela_o_departamento": "",
+    "sede": "San Carlos",
+    "instagram": "asepi.tec",
+    "activa": true
+  },
+  {
+    "nombre": "ASEGTURS",
+    "carrera": "Gestión en Sostenibilidad Turística",
+    "escuela_o_departamento": "",
+    "sede": "San Carlos",
+    "instagram": "asegturstec",
+    "activa": true
+  },
+  {
+    "nombre": "ASOIC",
+    "carrera": "Ingeniería en Computación",
+    "escuela_o_departamento": "",
+    "sede": "Limón",
+    "instagram": "asoiclimon",
+    "activa": true
+  },
+  {
+    "nombre": "ASOAE CAL",
+    "carrera": "Administración de Empresas",
+    "escuela_o_departamento": "",
+    "sede": "Limón",
+    "instagram": "asoae.li7",
+    "activa": true
+  },
+  {
+    "nombre": "ASOEPIL",
+    "carrera": "Ingeniería en Producción Industrial",
+    "escuela_o_departamento": "",
+    "sede": "Limón",
+    "instagram": "asoepil",
+    "activa": true
+  },
+  {
+    "nombre": "ASODEC AL",
+    "carrera": "Ingeniería en Computación",
+    "escuela_o_departamento": "",
+    "sede": "Alajuela",
+    "instagram": "asodec_al",
+    "activa": true
+  },
+  {
+    "nombre": "ASETECA",
+    "carrera": "Ingeniería en Electrónica",
+    "escuela_o_departamento": "",
+    "sede": "Alajuela",
+    "instagram": "aseteca_tec",
     "activa": true
   }
 ]

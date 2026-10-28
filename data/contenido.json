@@ -261,5 +261,27 @@
         }
       ]
     }
+  ],
+  "federacion_por_sede": [
+    {
+      "sede": "Cartago",
+      "instagram": "feitec"
+    },
+    {
+      "sede": "San José",
+      "instagram": "feitecsjo"
+    },
+    {
+      "sede": "San Carlos",
+      "instagram": "feitecsc"
+    },
+    {
+      "sede": "Limón",
+      "instagram": "feitecli"
+    },
+    {
+      "sede": "Alajuela",
+      "instagram": "feitecal"
+    }
   ]
 }
