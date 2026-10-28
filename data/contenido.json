@@ -1,0 +1,265 @@
+{
+  "descripcion": "Órganos, funciones y relaciones del movimiento estudiantil.",
+  "organos": [
+    {
+      "id": "age",
+      "sigla": "AGE",
+      "nombre": "Asamblea General de Estudiantes",
+      "rol": "Es el órgano máximo de la Federación.",
+      "integrantes": "Asamblea del estudiantado, según las reglas de integración del Reglamento.",
+      "periodo": "Es una asamblea, no un cargo con periodo de gestión.",
+      "poderes": [
+        "Reforma totalmente el Estatuto y el Reglamento con dos tercios de las personas presentes.",
+        "Aprueba la participación en una confederación.",
+        "Conoce las apelaciones de acuerdos del Plenario."
+      ],
+      "articulos": "8, 21",
+      "corto": "Asamblea General"
+    },
+    {
+      "id": "agp",
+      "sigla": "AGP",
+      "nombre": "Asamblea General Plebiscitaria",
+      "rol": "El estudiantado elige sus representantes mediante votación.",
+      "integrantes": "El electorado habilitado conforme al Código Electoral.",
+      "periodo": "Se rige por los procesos del Código Electoral.",
+      "poderes": [
+        "Elige al Consejo Ejecutivo.",
+        "Elige a los consejos regionales.",
+        "Elige al Fiscal."
+      ],
+      "articulos": "23–24",
+      "corto": "Asamblea Plebiscitaria"
+    },
+    {
+      "id": "pme",
+      "sigla": "PME",
+      "nombre": "Plenario de Movimiento Estudiantil",
+      "rol": "Es el segundo órgano legislativo y deliberativo.",
+      "integrantes": "Representaciones establecidas en el Reglamento y el Estatuto.",
+      "periodo": "Sesiona la última semana de cada mes. Cuórum: 40%.",
+      "poderes": [
+        "Reforma parcialmente el Reglamento, previa consulta a los directorios Electoral y Jurisdiccional y al Consejo Ejecutivo. Un criterio negativo impide la reforma.",
+        "Elige los directorios Electoral, Jurisdiccional y de Asambleas.",
+        "Elige una representación ante el Consejo Institucional."
+      ],
+      "articulos": "25–28, 26",
+      "corto": "Plenario"
+    },
+    {
+      "id": "ce",
+      "sigla": "CE",
+      "nombre": "Consejo Ejecutivo",
+      "rol": "Se encarga de la gestión ejecutiva y administrativa.",
+      "integrantes": "17 puestos de presidencia, vicepresidencia, secretarías y representaciones estudiantiles.",
+      "periodo": "2 años desde el 1 de enero. Sin reelección.",
+      "poderes": [
+        "Dirige la gestión administrativa de la Federación.",
+        "Emite criterio sobre reformas parciales del Reglamento.",
+        "Su Presidencia desempata con voto de calidad."
+      ],
+      "articulos": "29–34",
+      "corto": "Consejo Ejecutivo"
+    },
+    {
+      "id": "cer",
+      "sigla": "CER",
+      "nombre": "Consejos Ejecutivos Regionales",
+      "rol": "Ejecutan el trabajo estudiantil en cada campus o centro, excepto el Central.",
+      "integrantes": "Mínimo 5 personas. Incluye Presidencia, Secretaría General, Tesorería y Bienestar.",
+      "periodo": "2 años por elección popular. Reuniones quincenales.",
+      "poderes": [
+        "Ejercen la función ejecutiva en su campus o centro.",
+        "Toman decisiones propias dentro de las directrices del Consejo Ejecutivo."
+      ],
+      "articulos": "35–41",
+      "corto": "Consejos regionales"
+    },
+    {
+      "id": "asoc",
+      "nombre": "Asociaciones de carrera",
+      "rol": "Representan a cada carrera y son las integrantes de la Federación.",
+      "integrantes": "Una por carrera y campus. Junta mínima: Presidencia, Vicepresidencia, Secretaría General, Asuntos Académicos y Asuntos Financieros.",
+      "periodo": "1 año desde el 1 de enero. Máximo 2 periodos consecutivos en el mismo puesto.",
+      "poderes": [
+        "Representan los intereses de su carrera.",
+        "Se rigen por un reglamento interno compatible con el Reglamento Superior.",
+        "Deben elegir su junta cada año para conservar su condición federada."
+      ],
+      "articulos": "10–19, 78–92",
+      "corto": "Asociaciones"
+    },
+    {
+      "id": "tee",
+      "sigla": "TEE",
+      "nombre": "Tribunal Electoral Estudiantil",
+      "rol": "Organiza las elecciones y declara sus resultados.",
+      "integrantes": "Directorio elegido por el Plenario, con autonomía funcional.",
+      "periodo": "1 año. Máximo 2 periodos consecutivos.",
+      "poderes": [
+        "Valida candidaturas, padrones y el conteo final.",
+        "Declara resultados y juramenta al Consejo Ejecutivo y las juntas de asociaciones.",
+        "Puede anular procesos fraudulentos."
+      ],
+      "articulos": "42–53",
+      "corto": "Tribunal Electoral"
+    },
+    {
+      "id": "tj",
+      "sigla": "TJ",
+      "nombre": "Tribunal Jurisdiccional",
+      "rol": "Interpreta el Reglamento y resuelve sobre actos que lo contradicen.",
+      "integrantes": "Directorio de 5 integrantes y 2 suplentes, elegido por el Plenario. Incluye al Fiscal ante el Registro Nacional.",
+      "periodo": "1 año. Máximo 2 periodos consecutivos.",
+      "poderes": [
+        "Su interpretación del Reglamento obliga a todos los órganos.",
+        "Puede anular actos contrarios a la normativa.",
+        "Revisa que los reglamentos de asociaciones sean compatibles."
+      ],
+      "articulos": "54–70",
+      "corto": "Tribunal Jurisdiccional"
+    },
+    {
+      "id": "fiscal",
+      "nombre": "Fiscal",
+      "rol": "Fiscaliza actuaciones y denuncia irregularidades.",
+      "integrantes": "Fiscal elegido por la Asamblea Plebiscitaria.",
+      "periodo": "Consultar el nombramiento en la normativa aplicable.",
+      "poderes": [
+        "Fiscaliza sesiones del Consejo Ejecutivo, Plenario, Asamblea General y Directorio de Asambleas.",
+        "Accede a documentos, excepto los declarados confidenciales por el Tribunal de Honor.",
+        "Denuncia irregularidades ante el Tribunal de Honor."
+      ],
+      "articulos": "66–70",
+      "corto": "Fiscal"
+    },
+    {
+      "id": "th",
+      "sigla": "TH",
+      "nombre": "Tribunal de Honor",
+      "rol": "Aplica sanciones respetando el debido proceso.",
+      "integrantes": "Representaciones del Consejo Ejecutivo y del Plenario, más las presidencias de los tribunales Electoral y Jurisdiccional y del Directorio de Asambleas.",
+      "periodo": "Su composición depende de los cargos y representaciones que lo integran.",
+      "poderes": [
+        "Tramita las irregularidades denunciadas.",
+        "Puede retirar la condición de miembro como sanción.",
+        "Aparta del caso al integrante involucrado."
+      ],
+      "articulos": "71–77, 14",
+      "corto": "Tribunal de Honor"
+    },
+    {
+      "id": "dae",
+      "sigla": "DAE",
+      "nombre": "Directorio de Asambleas Estudiantiles",
+      "rol": "Organiza y dirige la Asamblea General y el Plenario.",
+      "integrantes": "Miembros elegidos por el Plenario, según las reglas de nombramiento.",
+      "periodo": "Del 1 de mayo al 30 de abril.",
+      "poderes": [
+        "Convoca y dirige las asambleas.",
+        "Lleva sus actas.",
+        "Coordina la Comisión de Becas."
+      ],
+      "articulos": "96–101",
+      "corto": "Directorio de Asambleas"
+    },
+    {
+      "id": "presidencias",
+      "nombre": "Consejo de Presidencias",
+      "rol": "Asesora y conecta a los órganos; no toma decisiones por ellos.",
+      "integrantes": "Presidencias de los órganos y asociaciones, más las representaciones regionales.",
+      "periodo": "Se reúne mensualmente.",
+      "poderes": [
+        "Analiza asuntos y propuestas.",
+        "Asesora al movimiento estudiantil.",
+        "Facilita la comunicación entre órganos."
+      ],
+      "articulos": "102–105",
+      "corto": "Consejo de Presidencias"
+    }
+  ],
+  "mapa": [
+    {
+      "id": "elecciones",
+      "nombre": "Elecciones",
+      "grupos": [
+        {
+          "origen": "agp",
+          "accion": "Elige",
+          "destinos": [
+            "ce",
+            "cer",
+            "fiscal"
+          ]
+        },
+        {
+          "origen": "pme",
+          "accion": "Elige los directorios",
+          "destinos": [
+            "tee",
+            "tj",
+            "dae"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controles",
+      "nombre": "Fiscalización",
+      "grupos": [
+        {
+          "origen": "fiscal",
+          "accion": "Fiscaliza sesiones",
+          "destinos": [
+            "ce",
+            "pme",
+            "dae",
+            "age"
+          ]
+        },
+        {
+          "origen": "fiscal",
+          "accion": "Denuncia ante",
+          "destinos": [
+            "th"
+          ]
+        },
+        {
+          "origen": "tj",
+          "accion": "Revisa reglamentos",
+          "destinos": [
+            "asoc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coordinacion",
+      "nombre": "Coordinación",
+      "grupos": [
+        {
+          "origen": "dae",
+          "accion": "Organiza",
+          "destinos": [
+            "age",
+            "pme"
+          ]
+        },
+        {
+          "origen": "presidencias",
+          "accion": "Asesora",
+          "destinos": [
+            "pme"
+          ]
+        },
+        {
+          "origen": "ce",
+          "accion": "Da directrices",
+          "destinos": [
+            "cer"
+          ]
+        }
+      ]
+    }
+  ]
+}

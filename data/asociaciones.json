@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "EJEMPLO · Asociación A",
+    "carrera": "Carrera por completar A",
+    "escuela_o_departamento": "Escuela por completar A",
+    "sede": "Cartago",
+    "instagram": "",
+    "descripcion": "Entrada de ejemplo. Reemplazar con información verificada de la asociación.",
+    "junta": [],
+    "activa": true
+  },
+  {
+    "nombre": "EJEMPLO · Asociación B",
+    "carrera": "Carrera por completar B",
+    "escuela_o_departamento": "Escuela por completar B",
+    "sede": "San Carlos",
+    "instagram": "",
+    "descripcion": "Entrada de ejemplo. La sede solo demuestra cómo funciona el filtro; no identifica una asociación real.",
+    "junta": [],
+    "activa": true
+  },
+  {
+    "nombre": "EJEMPLO · Asociación C",
+    "carrera": "Carrera por completar C",
+    "escuela_o_departamento": "Escuela por completar A",
+    "sede": "San José",
+    "instagram": "",
+    "descripcion": "Entrada de ejemplo. Agregá el usuario real de Instagram para habilitar su enlace.",
+    "junta": [],
+    "activa": true
+  }
+]
