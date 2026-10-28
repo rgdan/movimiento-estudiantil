@@ -121,8 +121,37 @@ function renderContent(data) {
 function associationCard(entry) {
   const id = associationId(entry);
   const example = entry.nombre.startsWith('EJEMPLO');
-  return `<article id="${id}" class="association-card" tabindex="-1" aria-labelledby="${id}-title"><div class="association-topline"><span>${escape(entry.sede)}</span><span>${example ? '<span class="example-label">EJEMPLO</span>' : ''}${!entry.activa ? ' · Inactiva' : ''}</span></div><h3 id="${id}-title">${escape(entry.nombre.replace(/^EJEMPLO\s*[·:]\s*/, ''))}</h3><p class="association-career">${escape(entry.carrera)}</p>${entry.instagram ? `<a class="button instagram-action" href="https://instagram.com/${encodeURIComponent(entry.instagram)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de ${escape(entry.nombre)} (nueva pestaña)">Abrir Instagram</a>` : '<button type="button" class="button instagram-action" disabled>Instagram sin registrar</button>'}<details><summary>Más información</summary>${entry.escuela_o_departamento ? paragraph(entry.escuela_o_departamento) : ''}${entry.descripcion ? paragraph(entry.descripcion) : ''}<a class="permalink" href="#${id}">Enlace a esta asociación</a></details></article>`;
+  return `<article id="${id}" class="association-card" tabindex="-1" aria-labelledby="${id}-title"><div class="association-topline"><span>${escape(entry.sede)}${example ? ' · EJEMPLO' : ''}${!entry.activa ? ' · Inactiva' : ''}</span><button type="button" class="copy-association" aria-label="Copiar enlace de ${escape(entry.nombre)}" title="Copiar enlace"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><g class="link-icon"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></g><path class="check-icon" d="m5 12 4 4L19 6"/></svg></button></div><h3 id="${id}-title">${escape(entry.nombre.replace(/^EJEMPLO\s*[·:]\s*/, ''))}</h3><p class="association-career">${escape(entry.carrera)}</p>${entry.instagram ? `<a class="button instagram-action" href="https://instagram.com/${encodeURIComponent(entry.instagram)}" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de ${escape(entry.nombre)} (nueva pestaña)">Abrir Instagram</a>` : '<button type="button" class="button instagram-action" disabled>Instagram sin registrar</button>'}</article>`;
 }
+
+$('#directory-results').addEventListener('click', async event => {
+  const button = event.target.closest('.copy-association');
+  if (!button) return;
+  const url = new URL(location.href);
+  url.hash = button.closest('.association-card').id;
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(url.href);
+    } else {
+      const field = document.createElement('textarea');
+      field.value = url.href;
+      field.style.cssText = 'position:fixed;opacity:0;pointer-events:none';
+      document.body.append(field);
+      try {
+        field.select();
+        if (!document.execCommand('copy')) throw new Error('No se pudo copiar.');
+      } finally {
+        field.remove();
+        button.focus({ preventScroll: true });
+      }
+    }
+    $('#directory-status').textContent = 'Enlace copiado.';
+    button.classList.add('copied');
+    setTimeout(() => { button.classList.remove('copied'); }, 2000);
+  } catch {
+    $('#directory-status').textContent = 'No se pudo copiar el enlace. Intentá de nuevo.';
+  }
+});
 
 function renderDirectory() {
   const filtered = filterAssociations(associations, { search: $('#search').value, sede: $('#sede').value });
@@ -169,7 +198,6 @@ function handleHash() {
   if (id.startsWith('asociacion-') && associations.some(entry => associationId(entry) === id)) {
     if (!document.getElementById(id)) resetFilters();
     const card = document.getElementById(id);
-    card.querySelector('details').open = true;
     requestAnimationFrame(() => { card.scrollIntoView({ block: 'center' }); card.focus({ preventScroll: true }); });
   }
   if (id.startsWith('organo-') && content && organById(id.slice(7))) {
