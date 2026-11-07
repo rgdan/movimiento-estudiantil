@@ -5,6 +5,10 @@
   "packageManager": "pnpm@12.16.1",
   "type": "module",
   "scripts": {
+    "serve": "serve . --listen tcp://127.0.0.1:4173",
     "test": "node --test tests/*.test.js"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
   }
 }

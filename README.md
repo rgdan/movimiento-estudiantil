@@ -5,7 +5,8 @@ Guía de la organización, asociaciones y fuentes del movimiento estudiantil del
 ## Abrir
 
 ```sh
-pnpm dlx serve@14 . --listen tcp://127.0.0.1:4173
+pnpm install
+pnpm serve
 ```
 
 Abrí <http://localhost:4173>.
