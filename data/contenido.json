@@ -6,8 +6,6 @@
       "sigla": "AGE",
       "nombre": "Asamblea General de Estudiantes",
       "rol": "Es el órgano máximo de la Federación.",
-      "integrantes": "Asamblea del estudiantado, según las reglas de integración del Reglamento.",
-      "periodo": "Es una asamblea, no un cargo con periodo de gestión.",
       "poderes": [
         "Reforma totalmente el Estatuto y el Reglamento con dos tercios de las personas presentes.",
         "Aprueba la participación en una confederación.",
@@ -21,8 +19,6 @@
       "sigla": "AGP",
       "nombre": "Asamblea General Plebiscitaria",
       "rol": "El estudiantado elige sus representantes mediante votación.",
-      "integrantes": "El electorado habilitado conforme al Código Electoral.",
-      "periodo": "Se rige por los procesos del Código Electoral.",
       "poderes": [
         "Elige al Consejo Ejecutivo.",
         "Elige a los consejos regionales.",
@@ -36,8 +32,6 @@
       "sigla": "PME",
       "nombre": "Plenario de Movimiento Estudiantil",
       "rol": "Es el segundo órgano legislativo y deliberativo.",
-      "integrantes": "Representaciones establecidas en el Reglamento y el Estatuto.",
-      "periodo": "Sesiona la última semana de cada mes. Cuórum: 40%.",
       "poderes": [
         "Reforma parcialmente el Reglamento, previa consulta a los directorios Electoral y Jurisdiccional y al Consejo Ejecutivo. Un criterio negativo impide la reforma.",
         "Elige los directorios Electoral, Jurisdiccional y de Asambleas.",
@@ -52,8 +46,6 @@
       "sigla": "CE",
       "nombre": "Consejo Ejecutivo",
       "rol": "Se encarga de la gestión ejecutiva y administrativa.",
-      "integrantes": "17 puestos de presidencia, vicepresidencia, secretarías y representaciones estudiantiles.",
-      "periodo": "2 años desde el 1 de enero. Sin reelección.",
       "poderes": [
         "Dirige la gestión administrativa de la Federación.",
         "Emite criterio sobre reformas parciales del Reglamento.",
@@ -73,8 +65,6 @@
       "sigla": "CER",
       "nombre": "Consejos Ejecutivos Regionales",
       "rol": "Ejecutan el trabajo estudiantil en cada campus o centro, excepto el Central.",
-      "integrantes": "Mínimo 5 personas. Incluye Presidencia, Secretaría General, Tesorería y Bienestar.",
-      "periodo": "2 años por elección popular. Reuniones quincenales.",
       "poderes": [
         "Ejercen la función ejecutiva en su campus o centro.",
         "Toman decisiones propias dentro de las directrices del Consejo Ejecutivo."
@@ -86,8 +76,6 @@
       "id": "asoc",
       "nombre": "Asociaciones de carrera",
       "rol": "Representan a cada carrera y son las integrantes de la Federación.",
-      "integrantes": "Una por carrera y campus. Junta mínima: Presidencia, Vicepresidencia, Secretaría General, Asuntos Académicos y Asuntos Financieros.",
-      "periodo": "1 año desde el 1 de enero. Máximo 2 periodos consecutivos en el mismo puesto.",
       "poderes": [
         "Representan los intereses de su carrera.",
         "Se rigen por un reglamento interno compatible con el Reglamento Superior.",
@@ -102,8 +90,6 @@
       "sigla": "TEE",
       "nombre": "Tribunal Electoral Estudiantil",
       "rol": "Organiza las elecciones y declara sus resultados.",
-      "integrantes": "Directorio elegido por el Plenario, con autonomía funcional.",
-      "periodo": "1 año. Máximo 2 periodos consecutivos.",
       "poderes": [
         "Valida candidaturas, padrones y el conteo final.",
         "Declara resultados y juramenta al Consejo Ejecutivo y las juntas de asociaciones.",
@@ -118,8 +104,6 @@
       "sigla": "TJE",
       "nombre": "Tribunal Jurisdiccional Estudiantil",
       "rol": "Interpreta el Reglamento y resuelve sobre actos que lo contradicen.",
-      "integrantes": "Directorio de 5 integrantes y 2 suplentes, elegido por el Plenario. Incluye al Fiscal ante el Registro Nacional.",
-      "periodo": "1 año. Máximo 2 periodos consecutivos.",
       "poderes": [
         "Su interpretación del Reglamento obliga a todos los órganos.",
         "Puede anular actos contrarios a la normativa.",
@@ -132,8 +116,6 @@
       "id": "fiscal",
       "nombre": "Fiscal",
       "rol": "Fiscaliza actuaciones y denuncia irregularidades.",
-      "integrantes": "Fiscal elegido por la Asamblea Plebiscitaria.",
-      "periodo": "Consultar el nombramiento en la normativa aplicable.",
       "poderes": [
         "Fiscaliza sesiones del Consejo Ejecutivo, Plenario, Asamblea General y Directorio de Asambleas.",
         "Accede a documentos, excepto los declarados confidenciales por el Tribunal de Honor.",
@@ -147,8 +129,6 @@
       "sigla": "TH",
       "nombre": "Tribunal de Honor",
       "rol": "Aplica sanciones respetando el debido proceso.",
-      "integrantes": "Representaciones del Consejo Ejecutivo y del Plenario, más las presidencias de los tribunales Electoral y Jurisdiccional y del Directorio de Asambleas.",
-      "periodo": "Su composición depende de los cargos y representaciones que lo integran.",
       "poderes": [
         "Tramita las irregularidades denunciadas.",
         "Puede retirar la condición de miembro como sanción.",
@@ -163,8 +143,6 @@
       "sigla": "DAE",
       "nombre": "Directorio de Asambleas Estudiantiles",
       "rol": "Organiza y dirige la Asamblea General y el Plenario.",
-      "integrantes": "Miembros elegidos por el Plenario, según las reglas de nombramiento.",
-      "periodo": "Del 1 de mayo al 30 de abril.",
       "poderes": [
         "Convoca y dirige las asambleas.",
         "Lleva sus actas.",
@@ -177,8 +155,6 @@
       "id": "presidencias",
       "nombre": "Consejo de Presidencias",
       "rol": "Asesora y conecta a los órganos; no toma decisiones por ellos.",
-      "integrantes": "Presidencias de los órganos y asociaciones, más las representaciones regionales.",
-      "periodo": "Se reúne mensualmente.",
       "poderes": [
         "Analiza asuntos y propuestas.",
         "Asesora al movimiento estudiantil.",

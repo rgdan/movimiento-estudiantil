@@ -57,7 +57,7 @@ function selectOrgan(id) {
     renderDiagram();
   }
   document.querySelectorAll('[data-organ]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.organ === id)));
-  $('#organ-detail').innerHTML = `<div class="organ-summary"><h3>${escape(organ.nombre)}${organ.sigla ? ` <span class="organ-acronym">(${escape(organ.sigla)})</span>` : ''}</h3>${paragraph(organ.rol)}${organ.instagram?.length ? `<ul class="organ-profiles" aria-label="Instagram">${organ.instagram.map(profile => `<li><a href="https://instagram.com/${encodeURIComponent(profile.usuario)}" target="_blank" rel="noopener noreferrer" aria-label="Instagram: ${escape(profile.nombre)} (nueva pestaña)">${escape(profile.nombre)}</a></li>`).join('')}</ul>` : ''}<details class="organ-meta"><summary>Composición y periodo</summary><p>${escape(organ.integrantes)}</p><p>${escape(organ.periodo)}</p></details></div><ul class="organ-powers">${organ.poderes.map(power => `<li>${escape(power)}</li>`).join('')}</ul>`;
+  $('#organ-detail').innerHTML = `<div class="organ-summary"><h3>${escape(organ.nombre)}${organ.sigla ? ` <span class="organ-acronym">(${escape(organ.sigla)})</span>` : ''}</h3>${paragraph(organ.rol)}${organ.instagram?.length ? `<ul class="organ-profiles" aria-label="Instagram">${organ.instagram.map(profile => `<li><a href="https://instagram.com/${encodeURIComponent(profile.usuario)}" target="_blank" rel="noopener noreferrer" aria-label="Instagram: ${escape(profile.nombre)} (nueva pestaña)">${escape(profile.nombre)}</a></li>`).join('')}</ul>` : ''}</div><ul class="organ-powers">${organ.poderes.map(power => `<li>${escape(power)}</li>`).join('')}</ul>`;
 }
 
 function drawConnections() {

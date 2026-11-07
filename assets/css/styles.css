@@ -108,8 +108,6 @@ h1 { font-size: clamp(2.6rem, 5.8vw, 4.6rem); margin-bottom: 1rem; }
 .organ-powers { font-size: .83rem; padding-left: 1.1rem; margin: 0; }
 .organ-powers li + li { margin-top: .65rem; }
 summary { color: var(--ink); font-weight: 600; font-size: .82rem; min-height: 46px; padding-block: .75rem; }
-.organ-meta summary { color: var(--link); font-weight: 500; font-size: .78rem; }
-.organ-meta p { font-size: .8rem; color: var(--muted); }
 .compact-detail { border-top: 1px solid var(--line); }
 .organ-detail + .compact-detail { margin-top: 1rem; }
 .compact-detail > p, .compact-detail > div { font-size: .85rem; }

@@ -6,7 +6,7 @@ Dirección del usuario: simplificar significativamente, centrar la identidad en 
 - El azul identifica acciones y selección. Los orígenes del diagrama usan un fondo salvia claro (#E9EFE9), texto verde oscuro y bordes definidos; las conexiones son azul grisáceo. El tema oscuro emplea variantes más claras de la misma paleta.
 - Una introducción breve y tres destinos: organización, asociaciones y fuentes. Sin resúmenes repetidos ni una segunda sección de fichas.
 - El diagrama separa elecciones, fiscalización y coordinación. Cada árbol tiene un origen, una acción explícita y destinos; las flechas se ajustan al tamaño real de los nodos.
-- Una sola ficha se actualiza al seleccionar un órgano. Composición y periodo quedan dentro de un desplegable.
+- Una sola ficha se actualiza al seleccionar un órgano, con su función, perfiles y atribuciones.
 - Tipografía del sistema, encabezados grandes, párrafos breves y espaciado más compacto. El encabezado es la única superficie translúcida.
 - Las asociaciones tienen búsqueda y un filtro por sede; la vista agrupada también usa solo la sede. La escuela se conserva como información y texto buscable.
 - Las cuatro fuentes se concentran al final. No se repiten citas dentro del diagrama o de las fichas.
