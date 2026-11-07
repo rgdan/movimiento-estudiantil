@@ -18,8 +18,11 @@ Abrí <http://localhost:4173>.
 
 ## Pruebas
 
+Usá pnpm 12.16.1.
+
 ```sh
-npm test
+pnpm install --frozen-lockfile
+pnpm test
 ```
 
 
