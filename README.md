@@ -25,4 +25,11 @@ pnpm install --frozen-lockfile
 pnpm test
 ```
 
+## Publicar en GitHub Pages
+
+En el repositorio, seleccioná **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+
+El flujo `.github/workflows/deploy-pages.yml` ejecuta las pruebas y publica el sitio con cada push a `main`. También se puede ejecutar manualmente desde **Actions → Deploy to GitHub Pages → Run workflow**.
+
+Solo se publican `index.html`, `assets/` y `data/`.
 
