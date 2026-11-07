@@ -7,7 +7,7 @@
 
 ![Vista del sitio en tema oscuro: introducción y diagrama de la organización estudiantil.](docs/screenshot.png)
 
-Una guía para conocer los órganos del movimiento estudiantil, encontrar su asociación de carrera y consultar la historia del movimiento. Proyecto estudiantil, no oficial.
+Una guía para conocer los órganos del movimiento estudiantil y consultar la historia del movimiento. Proyecto estudiantil, no oficial.
 
 HTML, CSS y JavaScript, sin dependencias de producción. Incluye temas claro y oscuro, un diagrama interactivo y búsqueda de asociaciones por nombre, carrera, escuela o sede.
 
