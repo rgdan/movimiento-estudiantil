@@ -1,6 +1,6 @@
-# Movimiento estudiantil del TEC
+# Movimiento estudiantil del ITCR
 
-Guía de la organización, asociaciones y fuentes del movimiento estudiantil del TEC. HTML, CSS y JavaScript, sin dependencias de producción.
+Guía de la organización, asociaciones y fuentes del movimiento estudiantil del ITCR. HTML, CSS y JavaScript, sin dependencias de producción.
 
 ## Abrir
 
