@@ -3,7 +3,7 @@
 Dirección del usuario: simplificar significativamente, centrar la identidad en todo el movimiento estudiantil, retirar presupuesto y aclaraciones de siglas, reunir las fuentes y rehacer el diagrama.
 
 - Paleta ajustada a pedido del usuario: azul pizarra #345773, azul grisáceo #6B94A3, verde salvia #6E8976 y gris #7C8992. Conserva las familias de color iniciales con menos saturación.
-- El azul identifica acciones y selección. Los orígenes del diagrama usan un fondo salvia claro (#E9EFE9), texto verde oscuro y bordes definidos; las conexiones son azul grisáceo. El tema oscuro emplea variantes más claras de la misma paleta.
+- El azul identifica acciones y selección. El tema claro usa un fondo blanco roto (#F0F1ED), secciones gris salvia (#E7EBE7) y fichas suaves (#F6F7F3) para reducir el brillo y los saltos entre superficies. Los orígenes del diagrama usan un fondo salvia claro (#DDE7DC), texto verde oscuro y bordes definidos; las conexiones son azul grisáceo. El tema oscuro emplea variantes más claras de la misma paleta.
 - Una introducción breve y tres destinos: organización, asociaciones y fuentes. Sin resúmenes repetidos ni una segunda sección de fichas.
 - El diagrama separa elecciones, fiscalización y coordinación. Cada árbol tiene un origen, una acción explícita y destinos; las flechas se ajustan al tamaño real de los nodos.
 - Una sola ficha se actualiza al seleccionar un órgano, con su función, perfiles y atribuciones.

@@ -19,7 +19,7 @@ function updateTheme() {
   const dark = document.documentElement.dataset.theme === 'dark';
   $('#theme-toggle').setAttribute('aria-label', dark ? 'Activar modo claro' : 'Activar modo oscuro');
   $('#theme-toggle').setAttribute('aria-pressed', String(dark));
-  $('meta[name="theme-color"]').content = dark ? '#151e26' : '#ffffff';
+  $('meta[name="theme-color"]').content = dark ? '#151e26' : '#f0f1ed';
 }
 updateTheme();
 $('#theme-toggle').addEventListener('click', () => {
