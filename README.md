@@ -5,7 +5,7 @@ Guía de la organización, asociaciones y fuentes del movimiento estudiantil del
 ## Abrir
 
 ```sh
-python3 -m http.server 4173 --bind 127.0.0.1
+pnpm dlx serve@14 . --listen tcp://127.0.0.1:4173
 ```
 
 Abrí <http://localhost:4173>.
